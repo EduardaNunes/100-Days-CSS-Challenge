@@ -1,4 +1,4 @@
-## 100-Days-CSS-Challenge
+## 100 Days CSS Challenge
 Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 
 ### Dia 1
@@ -24,3 +24,11 @@ Ahh! Esse dia foi uma delicinha. Com certeza foi muito mais tranquilo do que o D
 [Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaNunes-the-typescripter/pen/ZERgQLp?editors=1100)
 
 <img src="https://cdn.discordapp.com/attachments/1024482479131873391/1052769641921003590/003_gif.gif" width="200" height="200" />
+
+### Dia 4
+
+Até agora esse foi o projetinho mais simples e rápido de fazer. Mas, eu gostei bastante pois nunca havia trabalhado com cubic-bezier antes em animações e foi um tanto quanto complicadinho entender como funcionava, porém, encontrei um site que facilita a visualização da animação com cubic-bezier alternando os valores e tbm em comparação com linear/ease/ease-in/ease-out o que ajudou muito! [Site do Cubic-Bezier](https://cubic-bezier.com/#.18,.83,1,.94).
+
+[Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaNunes-the-typescripter/pen/YzvmrZm?editors=1100)
+
+<img src="https://cdn.discordapp.com/attachments/1024482479131873391/1052938086083989504/004_gif.gif" width="200" height="200" />
