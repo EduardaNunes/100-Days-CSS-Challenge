@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+	background: #272c34;
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ceu {
+	z-index: 1;
+	position: relative;
+	background-color: #73d2de;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadeout 4s ease-in-out infinite;
+}
+
+.borda {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border: 80px solid #272c34;
+	border-radius: 200px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.areia {
+	z-index: -1;
+	position: absolute;
+	background-color: #f4a261;
+	height: 100px;
+	width: 200px;
+	border-radius: 0 0 100px 100px;
+	top: 130px;
+}
+.piramide_esquerda {
+	z-index: 2;
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	background-color: #fefae0;
+  clip-path: polygon(50% 40%,0% 100%,65% 100%);
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	animation: piramide_esquerda 4s ease-in-out infinite;
+}
+
+.piramide_direita {
+	z-index: 1;
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	background-color: #fefae0;
+  clip-path: polygon(50% 40%,0% 100%,100% 100%);
+	margin-bottom: 50px;
+	animation: piramide_direita 4s ease-in-out infinite;
+}
+
+.sol {
+	position: absolute;
+	z-index: -2;
+	background-color: #fcca46;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: 60px 0px 0px 0px;
+	animation: circular 4s ease-in-out infinite;
+	box-shadow: 2px 2px 20px 0 rgba(227, 100, 20, 0.4);
+}
+
+.sombra {
+	z-index: 2;
+	position: absolute;
+	width: 220px;
+	height: 110px;
+	background-color: #e76f51;
+  clip-path: polygon(50% 40%,0% 0%,100% 0%);
+	margin-top: 170px;
+	margin-left: 0px;
+	animation: sombra 4s linear infinite;
+}
+
+@keyframes circular {
+	0% {
+		transform: rotate(-20deg) translate(-110px);
+	}
+	30% {
+		transform: rotate(60deg) translate(-110px);
+	}
+	100% {
+		transform: rotate(180deg) translate(-110px);
+	}
+}
+
+@keyframes piramide_direita {
+	0% {
+		filter: brightness(80%);
+	}
+	30% {
+		filter: brightness(90%);
+	}
+	60% {
+		filter: brightness(95%);
+	}
+	70% {
+		filter: brightness(100%);
+	}
+	100% {
+		filter: brightness(95%);
+	}
+}
+
+@keyframes piramide_esquerda {
+	0% {
+		filter: brightness(95%);
+	}
+	30% {
+		filter: brightness(100%);
+	}
+	70% {
+		filter: brightness(90%);
+	}
+	100% {
+		filter: brightness(80%);
+	}
+}
+
+@keyframes fadeout {
+	0% {
+		opacity: 0%;
+	}
+	30% {
+		opacity: 100%;
+	}
+	70% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0%;
+	}
+}
+
+@keyframes sombra {
+	0% {
+  clip-path: polygon(100% 0%,25% 0%,75% 0%);
+	}
+	30% {
+  clip-path: polygon(80% 20%,25% 0%,75% 0%);
+	}
+	40% {
+  clip-path: polygon(80% 20%,25% 0%,75% 0%);
+	}
+	70% {
+  clip-path: polygon(20% 10%,25% 0%,75% 0%);
+	}
+	100% {
+  clip-path: polygon(0% 0%,25% 0%,75% 0%);
+	}
+}
