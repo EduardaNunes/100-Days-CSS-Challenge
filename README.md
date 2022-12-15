@@ -39,7 +39,9 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 
 ### Dia 4
 
-<p align="justify">Até agora esse foi o projetinho mais simples e rápido de fazer. Mas, eu gostei bastante pois nunca havia trabalhado com cubic-bezier antes em animações e foi um tanto quanto complicadinho entender como funcionava, porém, encontrei um site que facilita a visualização da animação com cubic-bezier alternando os valores e tbm em comparação com linear/ease/ease-in/ease-out o que ajudou muito! [Site do Cubic-Bezier](https://cubic-bezier.com/#.18,.83,1,.94).</p>
+<p align="justify">Até agora esse foi o projetinho mais simples e rápido de fazer. Mas, eu gostei bastante pois nunca havia trabalhado com cubic-bezier antes em animações e foi um tanto quanto complicadinho entender como funcionava, porém, encontrei um site que facilita a visualização da animação com cubic-bezier alternando os valores e tbm em comparação com linear/ease/ease-in/ease-out o que ajudou muito! </p> 
+
+[Site do Cubic-Bezier](https://cubic-bezier.com/#.18,.83,1,.94)
 
 [Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaNunes-the-typescripter/pen/YzvmrZm?editors=1100)
 
