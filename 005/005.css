@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
+
+*{
+	margin:0;
+	padding:0;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.4);
+	overflow: hidden;
+  background: #42a7a1;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.tela {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+.cabecalho{
+	z-index:2;
+	background-color:#f1ba64;
+	width:300px;
+	height:70px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0 20px 0 20px;
+	box-sizing:border-box;
+	
+}
+
+.conteudo{
+	z-index:1;
+	background-color:#ffffff;
+	width:300px;
+	height:180px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+}
+
+.texto_direita{
+	text-align:start;
+}
+
+.texto_esquerda{
+	text-align:end;
+}
+
+.texto_1{
+	color:#fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.texto_2,.semana{
+	color:#fff;
+	font-size: 13px;
+	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.legenda{
+	width:100%;
+	height:45px;
+	background-color:#fff;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+
+.grafico{
+	width:100%;
+	height:90px;
+	background-color:#fff;
+	box-sizing:border-box;
+}
+.dias{
+	width:100%;
+	height:45px;
+	background-color:#fff;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.semana{
+	color:gray;
+}
+
