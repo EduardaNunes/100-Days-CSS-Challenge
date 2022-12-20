@@ -15,11 +15,17 @@
   border-radius: 2px;
 	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.4);
 	overflow: hidden;
-  background: #42a7a1;
+  background: #012a4a;
   color: #333;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+	color:#fff;
+	text-align:center;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8);	
 }
 
 .tela {
@@ -32,7 +38,7 @@
 
 .cabecalho{
 	z-index:2;
-	background-color:#f1ba64;
+	background-color:#118ab2;
 	width:300px;
 	height:70px;
 	display:flex;
@@ -49,9 +55,10 @@
 	width:300px;
 	height:180px;
 	display:flex;
-	justify-content:center;
+	justify-content:space-between;
 	flex-direction:column;
 	align-items:center;
+	position:relative;
 }
 
 .texto_direita{
@@ -78,24 +85,64 @@
 
 .legenda{
 	width:100%;
-	height:45px;
+	height:40px;
 	background-color:#fff;
 	box-sizing:border-box;
 	display:flex;
 	justify-content:flex-end;
 	align-items:center;
+	gap:20px;
+	padding-right:15px;
+	z-index:2;
+	position:absolute;
+	
 }
 
+.legenda div{
+	display:flex;
+	gap:5px;
+}
 
 .grafico{
+	position:relative;
 	width:100%;
-	height:90px;
+	height:100px;
 	background-color:#fff;
 	box-sizing:border-box;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:column;
 }
+
+#chart{
+	width:100%;
+	height:100%;
+	background-color:transparent;
+	z-index:3;
+}
+
+.Linhas{
+	padding-top:40px;
+	position:absolute;
+	height:100%;
+	width:100%;
+	z-index:2;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:column;
+}
+.Linha{
+	background-color:lightgray;
+	height:1px;
+	width:90%;
+	opacity:70%;
+}
+
 .dias{
 	width:100%;
-	height:45px;
+	height:40px;
 	background-color:#fff;
 	box-sizing:border-box;
 	display:flex;
@@ -104,5 +151,23 @@
 }
 .semana{
 	color:gray;
+	text-shadow: none;
+	width:20px;
 }
 
+.legenda_texto{
+	color:black;
+	font-size:11px;
+}
+
+.legenda_vermelho{
+	stroke:#ef476f;
+	stroke-width:4;
+	stroke-linecap:round;
+}
+
+.legenda_amarela{
+	stroke:#ff9f1c;
+	stroke-width:4;
+	stroke-linecap:round;
+}
