@@ -50,3 +50,18 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 <p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1052938086083989504/004_gif.gif" width="200" height="200" /></p>
 
 ---
+
+
+### Dia 5
+
+<p align="justify">Ok... Esse foi de longe o dia mais complicado até agora. Mas, foi porque eu sou teimosa e quis fazer do jeito mais difícil. Bem... não necessáriamente do jeito "mais difícil" mas com certeza mais difícil do que o desafio estava pedindo.</p> 
+<p align="justify">No desafio pedia apenas que desenhassemos um gráfico utilizando css puro com o SVG, porém, como eu não consegui ver muita utilidade nisso num cenário real de trabalho (visto que não seria possível trabalhar com os valores já que era basicamente apenas um desenho) eu decidi pesquisar uma forma de fazer isso com variáveis no JS... E bom... foi aí que eu conheci o <strong>Chart.js</strong> .</p> 
+<p align="justify">Essa é uma biblioteca bem legal, gostei bastante de aprender a mexer com ela, mas, com certeza, foi uma longa dor de cabeça kkk. Bati muito a cabeça na parede pra conseguir fazer tudo ficar bem bonitinho e quando finalmente pareceu que deu tudo certo o pop-up da tooltip do ponto mais alto ficou quebrada e eu tive que bater mais a cabeça pra poder conseguir ajeitar, mas no final deu tudo certo e estou muito orgulhosa do resultado e de tudo oq aprendi com esse projeto :) .</p> 
+
+[Clique Aqui para ver o projeto no CodePen](https://codepen.io/MeuPawDeAsa/pen/MWXNrqJ?editors=1000)
+
+---
+
+<p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1054913658771226715/005_gif.gif" width="200" height="200" /></p>
+
+---
