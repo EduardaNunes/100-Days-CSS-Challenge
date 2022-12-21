@@ -17,7 +17,7 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 
 <p align="justify">Bom... Esse dia foi um pouco mais complicado pois não estou muito acostumada com animações e acabei me enrolando um pouco pra conseguir fazer as animações ocorrerem dependentemente após o clique do botão. O que acabou me pegando foi que a animação só toca uma unica vez, então para ela ser acionada novamente pelo clique é necessário que exista em frame em que não tenha animação para aí sim adicionar novamente a animação (um pouco confuso? Talvez). Mas, tudo bem! No final deu tudo certo! O código definitivamente não foi o melhor possível mas está fazendo funcionar que é oq importa. Numa próxima vez tentarei fazer com um código mais compacto e limpo.</p>
 
-[Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaNunes-the-typescripter/pen/YzvmyYQ)
+[Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaPMNunes/pen/BaVXyBM)
 
 ---
 
@@ -75,6 +75,6 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 
 ---
 
-<p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1054913658771226715/005_gif.gif" width="200" height="200" /></p>
+<p align="center"><img src="https://media.discordapp.net/attachments/1024482479131873391/1054965662562385940/006_gif.gif" width="200" height="200" /></p>
 
 ---
