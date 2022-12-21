@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+:root{
+--fundo:#2f3e46;
+--principal:#cad2c5;
+--secundario:#84a98c;
+--texto:#081c15;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.4);
+	overflow: hidden;
+  background: var(--fundo);
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);	
+}
+
+.tela{
+	width:320px;
+	height:320px;
+	background-color:var(--principal);
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.8);
+	border-radius: 4px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.coluna{
+	position:relative;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	flex-direction:column;	
+}
+
+.direita{
+	width:30%;
+	height:100%;
+	color:var(--texto);
+	gap:1px;
+	background-color:var(--texto);
+}
+
+.estatisticas{
+	background-color:var(--secundario);
+	width:100%;
+  height:100%;
+	justify-content:center;
+	transition: 0.4s;
+	border-radius:0 50px;
+}
+.estatisticas:hover{
+	filter:brightness(90%);
+	cursor:pointer;
+}
+
+.esquerda{
+	width:70%;
+	height:100%;
+	color:var(--texto);
+}
+
+.foto_perfil{
+	position:relative;
+	width:120px;
+	height:120px;
+}
+
+.moldura{
+	position:absolute;
+	background-color:transparent;
+	border:solid 2px;
+	border-radius:50%;
+	box-sizing: border-box;
+
+}
+
+.circulo1{
+	width:120px;
+	height:120px;	
+	border-color:var(--texto) transparent var(--texto) var(--texto);
+	transition: all 1.5s ease-in-out;
+}
+
+.circulo2{
+	top:5px;
+	left:5px;
+	width:110px;
+	height:110px;
+	border-color:var(--texto) var(--texto) var(--texto) transparent;
+	transition: all 1.5s ease-in-out;
+}
+
+.foto{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+
+.foto_perfil:hover {
+	cursor: pointer;					
+}
+.foto_perfil:hover .circulo1{
+		transform: rotate(360deg);	
+}
+.foto_perfil:hover .circulo2{
+    transform: rotate(-360deg);	
+}
+
+.maior{
+	text-align:center;
+	font-weight:600;
+	font-size:20px;
+}
+
+.menor{
+	text-align:center;
+	font-weight:500;
+	font-size:12px;
+}
+
+.botoes{
+	gap:10px;
+}
+
+.botao{
+	background-color:transparent;
+	border-radius:20px;
+	width:150px;
+	padding:5px 0;
+	color:var(--texto);
+	border-color:var(--texto);
+	font-weight:600;
+	font-size:14px;
+	transition: 0.4s;
+}
+
+.botao:hover{
+	background-color:var(--texto);
+	color:var(--principal);
+	cursor: pointer;
+}
+
