@@ -75,6 +75,6 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 
 ---
 
-<p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1054963846080647228/006_gif.gif" width="200" height="200" /></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1054913658771226715/005_gif.gif" width="200" height="200" /></p>
 
 ---
