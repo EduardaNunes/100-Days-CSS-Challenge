@@ -65,3 +65,16 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 <p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1054913658771226715/005_gif.gif" width="200" height="200" /></p>
 
 ---
+
+### Dia 6
+
+<p align="justify">O dia 6 foi de longe o mais rápido até agora, não sei se é devido ao fato de eu ter praticado bastante nos ultimos dias (logo, as tags estão super frescas na minha memória) ou se é apenas porque é um projetinho bem simples mesmo. Mas, de qualquer forma, estou feliz e bastante contente com o resultado pois acho que ficou bem bonitinho</p> 
+
+
+[Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaPMNunes/pen/poZvRxV?editors=1100)
+
+---
+
+<p align="center"><img src="https://cdn.discordapp.com/attachments/1024482479131873391/1054963846080647228/006_gif.gif" width="200" height="200" /></p>
+
+---
