@@ -83,8 +83,6 @@ Desafio de criar pequenos projetos em CSS todos os dias durante 100 dias
 
 <p align="justify">O projetinho de hoje é bem simples num sentido geral, porém, como tinha muitos elementos e funcionalidades diferentes, acabou demandando um tempo considerável para terminar tudo (levando também em consideração as 1h que levei experimentando e trocando a palheta de cores kk). Mas no fim deu tudo certo, ficou lindo e aprendi bastante com essa prática</p> 
 
-<p align="justify">OBS: por algum motivo o meu codepen parou de funcionar todas as configurações interativas como hover e afins. Não sei se é só um bug (pois não está funcinando em nenhum dos meus projetos nem no de outras pessoas) mas vamos torcer pra voltar a funcionar sozinho logo kkk</p> 
-
 [Clique Aqui para ver o projeto no CodePen](https://codepen.io/EduardaPMNunes/pen/rNraPOx)
 
 ---
