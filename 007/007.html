@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>007 - 100 Days CSS Challenge</title>
+    <link rel="stylesheet" type ="text/css" href="007.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="frame">
+        <div class="center column">
+
+            <!--Painel Principal de Notificações (cabeçalho + corpo)-->
+            <div id="painel" class="column notificacoes">
+        
+                <!--Cabeçalho colorido na parte de cima da tela de notificações-->
+                
+                <div class="flex cabecalho">
+                    
+                    <span  id="btn_menu" type="button" class="column menu_icon">
+                        <div class="hover_icon linha_icon"></div>
+                        <div class="hover_icon linha_icon"></div>
+                        <div class="hover_icon circulo_icon"></div>
+                    </span>
+                    
+                    <p class="texto_cabecalho">Notificações</p>
+
+                    <input id="barra_pesquisa" class="barra" type="text" placeholder="Procurar...">
+                    <button id="btn_pesquisa" type="button" class="pesquisa"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    
+                </div>
+                
+                <!--Parte de Baixo, Conteúdo Principal da Tela de Notificações-->
+                <div class="column conteudo">
+                    
+                    <div class="linha"></div>
+                    
+                    <div class="flex notificacao">
+                        <div class="hover decoracao"></div>
+                        <div class="column data_msg">
+                            <p class="hover texto_menor">9:24 AM</p>
+                            <p class="hover texto_maior"><strong>João Wagner</strong> postou uma foto no seu mural</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex notificacao">
+                        <div class="hover decoracao"></div>
+                        <div class="column data_msg">
+                            <p class="hover texto_menor">8:19 AM</p>
+                            <p class="hover texto_maior"><strong>Alicia Pinto</strong> comentou sua última publicação</p>
+                        </div>	
+                    </div>
+                    
+                    <div class="flex notificacao">
+                        <div class="hover decoracao"></div>
+                        <div class="column data_msg">
+                            <p class="hover texto_menor">Ontem</p>
+                            <p class="hover texto_maior"><strong>Lucas Silva</strong> aceitou a sua solicitação de amizade</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Menu Escondido Atrás da Tela Total de Notificação -->
+            <div id="menu" class="column menu">
+                    
+                <div class="flex menu_item">
+                    <p class="texto_menu"><i class="fa fa-tachometer"></i> Painel</p>
+                </div>
+                
+                <div class="flex menu_item">
+                    <p class="texto_menu"><i class="fa fa-user"></i> Perfil</p>
+                </div>
+                
+                <div class="flex menu_item">
+                    <p class="texto_menu"><i class="fa fa-bell"></i> Notificações</p>
+                </div>
+                
+                <div class="flex menu_item">
+                    <p class="texto_menu"><i class="fa fa-comments"></i> Mensagens</p>
+                </div>
+                
+                <div class="flex menu_item">
+                    <p class="texto_menu"><i class="fa fa-cog"></i> Configurações</p>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="007.js"></script> 
+</body>
+</html>
